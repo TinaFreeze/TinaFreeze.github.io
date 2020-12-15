@@ -1,0 +1,54 @@
+a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, span, table, td, th, tr, u, video,body,ul{
+margin: 0;
+padding: 0;
+border: 0;
+}
+li{
+list-style-type: none;
+}
+body{
+background-color: white;
+}
+.container-fluid{
+display: flex;
+height: 100%;
+align-items: center;
+justify-content: space-between;
+}
+.container{
+display: flex;
+flex-direction: column;
+}
+.general{
+margin-left: 20%;
+}
+.logo{
+max-height: 150px;
+}
+.knowleges{
+margin-top: 50px;
+margin-bottom: 50px;
+text-align: center;
+line-height: 2;
+}
+.edu{
+padding: 20%;
+background-color: white;
+}
+.exmpl{
+background-color:orange;
+padding: 20%;
+}
+.contact{
+background-color: cornflowerblue;
+padding: 15%;
+}
+.znach{
+display: flex;
+justify-content: space-between;
+}
+.comun{
+    padding-top: -20%;
+    margin-bottom: 20%;
+    text-align: center;
+}
